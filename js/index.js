@@ -9,6 +9,16 @@ var $grid= $('.grid').masonry({
 $grid.imagesLoaded().progress( function() {
   $grid.masonry();
 }); 
+//當捲動到區塊時，.grid-item加入.animation執行由小至大的動畫
+function revealOnScroll() {
+    var scrolled = $(window).scrollTop();
+    $(".grid-item").each(function() {
+        var current = $(this),
+            w_height = $(window).outerHeight(),
+            offsetTop = current.offset().top;
+        if (scrolled + w_height - 50 > offsetTop) {
+            current.addClass("animation");
+        } else {
             // current.removeClass("animation");
 						// 當區塊離開可視範圍內移除.animation
         }
@@ -18,7 +28,7 @@ $(window).on("scroll", revealOnScroll);
 
 //回到最上方
 $('.top').click(function() {
-    $("html, body").animate({ scrollTop: 0 }, 300);
+    $("html, body").animate({ scrollTop: 0 }, 600);
 });
 
 //即時搜尋

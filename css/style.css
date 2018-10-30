@@ -22,11 +22,12 @@ body {
 }
 
 .addbg {
-  background: black;
+  background: #87AEB4 ;
+	opacity: 0.6
 }
 
 .searching {
-  background-color: #CDD4CA;
+  background-color: white;
   border: 1px solid #fff;
   border-radius: 0;
   width: 100%;
@@ -47,7 +48,7 @@ h3 {
 
 .grid-item {
   padding: 10px;
-  color: #000;
+  color: #CDD4CA;
   opacity: 1;
 }
 
@@ -68,8 +69,8 @@ h3 {
   cursor: pointer;
 }
 .hover:hover img {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
 }
 
 img {
