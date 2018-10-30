@@ -111,7 +111,7 @@ img {
 }
 .top {
   position: fixed;
-  left: 95%;
+  right: 10%;
   bottom: 3%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
