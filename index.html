@@ -12,7 +12,10 @@
 
       <link rel="stylesheet" href="css/style.css">
 
-  
+  	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
 </head>
 
 <body>
@@ -26,10 +29,45 @@
 <div class="block container">
 	<h1 class="text-center">Checking Here</h1>
 
+	<!-- 按钮触发模态框 -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+	check
+</button>
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+		
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					&times;
+					
+				</button>
+				<h4 class="modal-title" id="myModalLabel">
+					@hornet ID
+				</h4>
+			</div>
+			<div class="modal-body">
+				<img src="https://www.rai-playroom.net/gallery/20180314a/01.jpg" style="display:block; margin:auto;" />
+				<br/><img src="https://www.rai-playroom.net/gallery/20180314a/02.jpg" style="display:block; margin:auto;" />
+				<br/><img src="https://www.rai-playroom.net/gallery/20180314a/04.jpg" style="display:block; margin:auto;" />
+				<br/><img src="https://www.rai-playroom.net/gallery/20180314a/08.jpg"  style="display:block; margin:auto;"/>
+				<br/>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">关闭
+				</button>
+			
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal -->
+</div>
+	
     <div class="grid">
         <div class="grid-sizer col-xs-12 col-md-6 col-lg-3"></div>
         <div data-title="@angus0130 陳程程 小黑" class="grid-item col-xs-12 col-md-6 col-lg-3">
             <div class="hover">
+				
                 <img class="lazy" src="https://img.chinatimes.com/newsphoto/2017-02-22/656/20170222006142.jpg"  /></div>
             <div class="grid-item-content">
                 <h3>@angus0130 陳程程 小黑</h3>
