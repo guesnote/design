@@ -27,27 +27,39 @@
     </div>
 </div>
 <div class="block container">
-	<h1 class="text-center">Checking Here</h1>
+  <h1 class="text-center">Checklist</h1>
 
 	<!-- 按钮触发模态框 -->
-<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-	check
-</button>
-<!-- 模态框（Modal） -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+<!-- frame start -->
+	
+<div class="grid">
+ <div class="grid-sizer col-xs-12 col-md-6 col-lg-3"></div>
+<div data-title="@angus0130 陳程程 小黑" class="grid-item col-xs-12 col-md-6 col-lg-3">
+<div class="hover">
+				
+<a href="#angus0130" data-toggle="modal"><img src="https://img.chinatimes.com/newsphoto/2017-02-22/656/20170222006142.jpg"></a>
+</div>
+	<div class="grid-item-content">
+	<h3>@angus0130 陳程程 小黑</h3>
+	<p></p>
+	</div>
+</div>
+	<!-- id和對應的href要修改 -->
+<div class="modal fade" id="angus0130" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	<div class="modal-dialog modal-lg">
 		
-		<div class="modal-content">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-					&times;
+	<div class="modal-content">
+	<div class="modal-header">
+	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
 					
-				</button>
-				<h4 class="modal-title" id="myModalLabel">
-					@hornet ID
-				</h4>
-			</div>
-			<div class="modal-body">
+	</button>
+	<h4 class="modal-title" id="myModalLabel">
+	<!-- modal標題 -->	
+	@angus0130
+	</h4>
+	</div>
+	<div class="modal-body">
 				<img src="https://scontent.ftpe3-2.fna.fbcdn.net/v/t1.0-9/36511082_1006554736168180_2421599378637586432_n.jpg?_nc_cat=102&_nc_ht=scontent.ftpe3-2.fna&oh=1cb37c92966bdfe925f43533df64b9a1&oe=5C82915F" style="display:block; margin:auto;" />
 				<br/><img src="https://scontent.ftpe3-2.fna.fbcdn.net/v/t1.0-9/16508533_727841510706172_2094096369501795405_n.jpg?_nc_cat=105&_nc_ht=scontent.ftpe3-2.fna&oh=3c3aa90f2e083d75a295e13bbbda025f&oe=5C7F1922" style="display:block; margin:auto;" />
 				<br/><img src="https://scontent.ftpe3-2.fna.fbcdn.net/v/t1.0-9/15965236_712245012265822_2461304912493322919_n.jpg?_nc_cat=107&_nc_ht=scontent.ftpe3-2.fna&oh=aa15fb297743059a60a9ff7d9fef7e99&oe=5C895EE5" style="display:block; margin:auto;" />
@@ -56,28 +68,14 @@
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-default" data-dismiss="modal">Done
-				</button>
+			  </button>
 			
 			</div>
 		</div><!-- /.modal-content -->
-	</div><!-- /.modal -->
+	</div>
 </div>
-	
-    <div class="grid">
-        <div class="grid-sizer col-xs-12 col-md-6 col-lg-3"></div>
-        <div data-title="@angus0130 陳程程 小黑" class="grid-item col-xs-12 col-md-6 col-lg-3">
-            <div class="hover">
-				
-			<a href="#myModal" data-toggle="modal">
-  <img src="https://img.chinatimes.com/newsphoto/2017-02-22/656/20170222006142.jpg">
-</a>
-			</div>
-            <div class="grid-item-content">
-                <h3>@angus0130 陳程程 小黑</h3>
-                <p></p>
-					
-            </div>
-        </div>
+	<!-- frame done -->
+  
         <div data-title="@lqczi" class="grid-item col-xs-12 col-md-6 col-lg-3">
             <div class="hover">
                 <img class="lazy" src="https://tetu.com/content/uploads/2016/07/boy.jpg" /></div>
@@ -204,7 +202,7 @@
 					
             </div>
         </div>
-    </div>
+  </div>
 </div>
 <div class="top">top</div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
