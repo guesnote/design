@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<title>Bootstrap 实例 - 模态框（Modal）插件方法</title>
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<h2>模态框（Modal）插件方法</h2>
+	<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModalA1">
+	开始演示模态框	
+	<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+	开始演示模态框
+</button>
+	
+		<div class="grid">
+        <div class="grid-sizer col-xs-12 col-md-6 col-lg-3"></div>
+        <div data-title="@angus0130 陳程程 小黑" class="grid-item col-xs-12 col-md-6 col-lg-3">
+            <div class="hover">
+				
+                <a href="#myModal"><img class="lazy" src="https://img.chinatimes.com/newsphoto/2017-02-22/656/20170222006142.jpg"  /></div>
+            <div class="grid-item-content">
+                <h3>@angus0130 陳程程 小黑</h3>
+                <p></p>
+					
+            </div>
+	
+<!-- 按钮触发模态框 -->
+
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" 
+						aria-hidden="true">×
+				</button>
+				<h4 class="modal-title" id="myModalLabel">
+					@hornetID
+				</h4>
+			</div>
+			<div class="modal-body">
+                <img src="https://scontent.ftpe3-2.fna.fbcdn.net/v/t1.0-9/36511082_1006554736168180_2421599378637586432_n.jpg?_nc_cat=102&_nc_ht=scontent.ftpe3-2.fna&oh=1cb37c92966bdfe925f43533df64b9a1&oe=5C82915F" style="display:block; margin:auto;" />
+				<br/>
+				<img src="https://scontent.ftpe3-2.fna.fbcdn.net/v/t1.0-9/16508533_727841510706172_2094096369501795405_n.jpg?_nc_cat=105&_nc_ht=scontent.ftpe3-2.fna&oh=3c3aa90f2e083d75a295e13bbbda025f&oe=5C7F1922" style="display:block; margin:auto;" />
+				<br/>
+				<img src="https://scontent.ftpe3-2.fna.fbcdn.net/v/t1.0-9/15965236_712245012265822_2461304912493322919_n.jpg?_nc_cat=107&_nc_ht=scontent.ftpe3-2.fna&oh=aa15fb297743059a60a9ff7d9fef7e99&oe=5C895EE5" style="display:block; margin:auto;" />
+				<br/>
+				<img src="https://scontent.ftpe3-2.fna.fbcdn.net/v/t1.0-9/15726238_705447542945569_6040899641568339344_n.jpg?_nc_cat=109&_nc_ht=scontent.ftpe3-2.fna&oh=c421d935cd65e08d5925cc84a44187e3&oe=5C4C7182"  style="display:block; margin:auto;"/>
+				<br/>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" 
+						data-dismiss="modal">Done
+				</button>
+
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+</body>
+</html>
